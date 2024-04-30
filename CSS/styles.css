@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+/* FONT AND BORDER BOX FOR ALL */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #FAFAF9;
+    font-family: 'Sora';
+    margin-top: 164px;
+}
+
+/* CARD */
+
+#card{
+    background-color: #FFFFFF;
+    max-width: 372px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    border: solid #FFFFFF;
+    transition: 0.5s;
+}
+
+#card:hover{
+    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+}
+
+/* IMAGEN */
+
+#contenedor-foto img{
+    width: 100%;
+    border-radius: 16px;
+    background-color: #f3f3f3;
+    
+}
+
+#contenedor-foto{
+    max-width: 336px;
+    max-height: 152px;
+    margin: 16px;
+}
+
+
+/* TAG */
+
+#picture p{
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 16px;
+    max-width: fit-content;
+    border-radius: 16px;
+    padding: 3px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 16px;
+    color: #883AE1;
+    background-color: #E6D6FC;
+}
+
+
+/* TITULO */
+
+h1{
+    margin-left: 16px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* PARRAFO */
+
+#text p{
+    margin: 16px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+/* FOOTER */ 
+footer{
+    margin-bottom: 4px;
+}
+footer p{
+    margin-left: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+hr{
+    border-color: #E5EAF0;
+}
+
